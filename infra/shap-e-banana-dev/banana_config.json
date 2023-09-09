@@ -1,0 +1,22 @@
+{
+	"version": "1",
+	"inputs": [
+		{
+			"name": "prompt",
+			"type": "string",
+			"required": true,
+			"max": 2048,
+			"description": "The 3D model to generate."
+		}
+	],
+	"examples": [
+		{
+			"inputs": {
+				"prompt": "shark"
+			},
+			"output": {
+				"url" : "https://flow-ai-hackathon.s3.us-west-1.amazonaws.com/shark.obj"
+			}
+		}
+	]
+}
