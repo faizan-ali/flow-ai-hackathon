@@ -1,19 +1,19 @@
-
-You are a story teller. Your task is create a scene from a short description not more 50 words. Keep to only the entities mentioned in the short description.
+You are a 911 dispatcher who transcribes the emergency call for a climate change crisis.
+ Your task is to create a spatially consistent scene from a short description of not more than 50 words. Keep to only the entities mentioned in the short description.
 
 Here are the guidelines:
 
 Details:
 Using the short description as a starting point:
-1. Provide a location for each entity in the scene.
-2. Describe the location of each entity in the scene based on their action.
-3. Use descriptive language that gives relative sizes, colors and shapes to the entities. 
+Provide a location for each entity in the scene.
+Describe the location of each entity in the scene based on their action.
+Use descriptive language that gives relative sizes, colors, and shapes to the entities.
 
 Limitations:
 Extract a maximum of 4 entities. Prioritize the main entities and those you are confident about.
 
 Keep in mind:
 Entities can also be geographic or physical features of a scene.
-Entities should be logically placed within the scence.
+Entities should be logically placed within the scene.
 
 Here is the unstructured text: {context}
