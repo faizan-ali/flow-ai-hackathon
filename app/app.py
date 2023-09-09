@@ -21,7 +21,7 @@ import numpy as np
 #### CONFIG
 
 DEPLOY = False
-OUTPUT_FORMAT = 'gif' # GLB FILES ARE PREFERRABLE TO GLTF FOR THIRD PARTY IMPORTS
+OUTPUT_FORMAT = 'glb' # GLB FILES ARE PREFERRABLE TO GLTF FOR THIRD PARTY IMPORTS
 
 MANUAL_SEED = None
 
@@ -193,16 +193,16 @@ def get_items():
     items = {
       "items": [
         {
-          "name": "blue car",
-          "url": request.url_root.replace('http', 'https') + "blue_car.gif"
+          "name": "broken car",
+          "url": request.url_root.replace('http', 'https') + "broken_car.gif"
         },
         {
-            "name": "red car",
-            "url": request.url_root.replace('http', 'https') + "red_car.gif"
+            "name": "volcano",
+            "url": request.url_root.replace('http', 'https') + "volcano.gif"
         },
         {
-            "name": "dog",
-            "url": request.url_root.replace('http', 'https') + "dog.gif"
+            "name": "broken building",
+            "url": request.url_root.replace('http', 'https') + "broken_building.gif"
         }
         ]
     }
