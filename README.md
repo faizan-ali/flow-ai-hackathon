@@ -40,6 +40,10 @@ Make sure to include any necessary prerequisites in the setup instructions and d
 
 ### Running the frontend
 
+```shell
+cd frontend
+```
+
 Copy `.env.example` to `.env`
 ```shell
 cp .env.example .env
