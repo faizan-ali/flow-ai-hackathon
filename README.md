@@ -1,7 +1,7 @@
 ## **Flow.AI: 3D Scene Generation for Emergency Response Planning**
 
 ### GenLab Hackathon - DG717 2023-09-09
-The Flow.AI platform designed to accelerate the response to natural calamities. In an era defined by the increasing impact of climate change, it empowers individuals and first responders alike to act swiftly and effectively.
+The Flow.AI platform designed to accelerate the response to natural calamities. In an era defined by the increasing impact of climate change, it empowers individuals and first responders alike to act swiftly and effectively. Presentation found [here](https://docs.google.com/presentation/d/1wIM2Ygbg6eew-7CUEaJkAURrpnOmEWVk4LKU4b87EjI/edit?usp=sharing). 
 
 #### **Description**
 Leverage the innovative AI technology of GPT-4 to translate textual descriptions into realistic 3D scenes grounded in real-world geographic and structural data. Our solution facilitates non-verbal communication through interactive 3D scenes. By integrating Text-to-3D visualizations using GPT-4 and shape-diffusion models, we empower situational awareness for dynamic response planning.
