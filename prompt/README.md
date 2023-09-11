@@ -60,15 +60,20 @@ https://looz2lqanh2e35fgmjrbvo4yde0dywuu.lambda-url.us-west-2.on.aws/docs
 From your terminal use Curl for /get-objects:
 
 ```
-curl -X 'POST'   'https://{complete url here}/get-objects'   -H 'accept: application/json'   -H 'Content-Type: application/json'   -d '{
-  "message": "there are two trees that have fallen in the river and a boat is capsized",
-  "prompt_id": "62e9559fd0b14f0386262ca1f7a852e6"
-}'
+curl -X 'POST' \
+>   'https://looz2lqanh2e35fgmjrbvo4yde0dywuu.lambda-url.us-west-2.on.aws/get-objects' \
+>   -H 'accept: application/json' \
+>   -H 'Content-Type: application/json' \
+>   -d '{
+>   "message": "huge earthquake in marrakesh with a building that crumbles on to people",
+>   "prompt_id": "32be7316a3ac45b3bebaaa79e3aa77bf"
+> }'
 ```
 
 
-An example output should look like the following:
+An example output looks like the following:
 ```
-{"response":"{  \"assets\": [    {      \"title\": \"tree1\",      \"position\": \"{“x”: 1, “y”: 3, “z”: 0}\",      \"scale\":  \"{“length”: 6, “width”: 2, “height”: 5}\"      },    {      \"title\": \"tree2\",      \"position\": \"{“x”: 4, “y”: 4, “z”: 0}\",      \"scale\":  \"{“length”: 8, “width”: 3, “height”: 6}\"      },    {      \"title\": \"river\",      \"position\": \"{“x”: 0, “y”: 0, “z”: 0}\",      \"scale\":  \"{“length”: 10, “width”: 5, “height”: 0}\"      },    {      \"title\": \"boat\",      \"position"}
+{"response":"\n{\n  \"assets\": [\n    {\n      \"title\": \"building\",\n      \"position\": \"{“x”: 0, “y”: -5, “z”: 0}\",\n      \"scale\":  \"{“length”: 100, “width”: 50, “height”: 100}\",\n      \"color\": \"grey\"\n    },\n    {\n      \"title\": \"rubble\",\n      \"position\": \"{“x”: 5, “y”: -3, “z”: 0}\",\n      \"scale\":  \"{“length”: 10, “width”: 10, “height”: 10}\",\n      \"color\": \"grey\"\n    },\n    {\n      \"title\": \"people\",\n      \"position\": \"{“x”: 10, “y”: -1, “z”: 0}\",\n      \"scale\":  \"{“length”: 0, “width”: 0, “height”: 0}\",\n      \"color\": \"none\"\n    },\n    {\n      \"title\": \"mosque\",\n      \"position\": \"{“x”: -5, “y”: -3, “z”: 0}\",\n      \"scale\":  \"{“length”: 50, “width”: 25, “height”: 50}\",\n      \"color\": \"none\"\n    }\n  ]\n}"
+}
 ```
 
