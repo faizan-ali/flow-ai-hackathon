@@ -4,7 +4,9 @@
 The Flow.AI platform designed to accelerate the response to natural calamities. In an era defined by the increasing impact of climate change, it empowers individuals and first responders alike to act swiftly and effectively.
 
 #### **Description**
-Leverage the innovative AI technology of GPT-4 to translate textual descriptions into realistic 3D scenes grounded in real-world geographic and structural data. This project enhances situational awareness for emergency responders, facilitating dynamic response planning through real-time interactive scenarios. The solution integrates with GIS and other databases, guaranteeing detailed and accurate 3D visualizations.
+Leverage the innovative AI technology of GPT-4 to translate textual descriptions into realistic 3D scenes grounded in real-world geographic and structural data. Our solution facilitates non-verbal communication through interactive 3D scenes. By integrating Text-to-3D visualizations using GPT-4 and shape-diffusion models, we empower situational awareness for dynamic response planning.
+
+This project enhances situational awareness for emergency responders, facilitating dynamic response planning through real-time interactive scenarios. The solution integrates with GIS and other databases, guaranteeing detailed and accurate 3D visualizations.
 
 #### **Directory Outline**
 - **app/**
@@ -40,3 +42,11 @@ Make sure to include any necessary prerequisites in the setup instructions and d
 
 ### Running the frontend
 `cd frontend` then follow the instructions in the README.md in that folder
+
+## Contributors
+
+- **Andrea De Cosmo**
+- **KP Kshitij Parashar**
+- **Faizan Ali**  
+- **Randy Fong**  
+- **Silas Everett** 

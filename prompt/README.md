@@ -71,4 +71,3 @@ An example output should look like the following:
 ```
 {"response":"{  \"assets\": [    {      \"title\": \"tree1\",      \"position\": \"{“x”: 1, “y”: 3, “z”: 0}\",      \"scale\":  \"{“length”: 6, “width”: 2, “height”: 5}\"      },    {      \"title\": \"tree2\",      \"position\": \"{“x”: 4, “y”: 4, “z”: 0}\",      \"scale\":  \"{“length”: 8, “width”: 3, “height”: 6}\"      },    {      \"title\": \"river\",      \"position\": \"{“x”: 0, “y”: 0, “z”: 0}\",      \"scale\":  \"{“length”: 10, “width”: 5, “height”: 0}\"      },    {      \"title\": \"boat\",      \"position"}
 ```
-
