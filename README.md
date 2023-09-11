@@ -1,3 +1,6 @@
+![alt text](https://github.com/faizan-ali/flow-ai-hackathon/blob/main/assets/flowai.png)
+
+
 ## **Flow.AI: 3D Scene Generation for Emergency Response Planning**
 
 ### GenLab Hackathon - DG717 2023-09-09

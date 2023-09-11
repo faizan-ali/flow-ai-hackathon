@@ -57,6 +57,10 @@ Click the `Function url` provided.
 See FastAPI documentation by adding /docs to the url, for example:
 https://looz2lqanh2e35fgmjrbvo4yde0dywuu.lambda-url.us-west-2.on.aws/docs
 
+You should see:
+
+![alt text](https://github.com/faizan-ali/flow-ai-hackathon/blob/main/assets/prompt_api.png)
+
 From your terminal use Curl for /get-objects:
 
 ```
