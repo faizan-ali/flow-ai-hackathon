@@ -43,6 +43,50 @@ Make sure to include any necessary prerequisites in the setup instructions and d
 ### Running the frontend
 `cd frontend` then follow the instructions in the README.md in that folder
 
+```shell
+cd frontend
+```
+
+Copy `.env.example` to `.env`
+```shell
+cp .env.example .env
+```
+
+Fill in details. Reach out to Faizan for these.
+
+Install dependencies.
+```bash
+npm install
+```
+
+Run the dev server.
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser.
+
+
+You can start editing the page by modifying `app/page.tsx` and its subcomponents e.g. `Landing.tsx` The page auto-updates as you edit the file.
+
+
+### Running the Backend
+
+To run the backend, follow these steps:
+
+1. Navigate to the app directory:
+   ```shell
+   cd app
+   ```
+
+2. The backend is implemented as a Flask application and has the following features:
+
+    - **3D Model Generation**: The backend can generate 3D models.
+    - **Endpoint for 3D Models**: You can access the 3D models via the `generate_3d` endpoint.
+    - **GPU Usage for Shap-e**: To ensure efficient processing, the backend requires GPU (Graphics Processing Unit) support.
+    - **Default 3D Model Format**: By default, the generated 3D models are in the GLB (GL Binary) format, suitable for web applications.
+    - **Alternative Output Formats**: The backend offers options to generate 3D models in other formats, such as OBJ or GIF files
+
 ## Contributors
 
 - **Andrea De Cosmo**
